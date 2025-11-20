@@ -25,3 +25,10 @@ grpcurl -plaintext localhost:50051 list
 grpcurl -plaintext localhost:50051 file_service.FileService/ListFiles
 
 # 4. Или через Postman gRPC (нужно выбрать .proto файл)
+```
+
+## Тестирование в Postman
+
+<img width="831" height="501" alt="2025-11-21_02-09-29" src="https://github.com/user-attachments/assets/3a8a772c-3057-4e77-a7e8-03f96e65d9d2" />
+<img width="831" height="501" alt="2025-11-21_02-09-29" src="https://github.com/user-attachments/assets/7f52f85e-a3bd-497c-b51d-b177251e33eb" />
+<img width="831" height="605" alt="2025-11-21_02-10-11" src="https://github.com/user-attachments/assets/2325cc75-4f72-4265-831f-ee9e9d490e3e" />
