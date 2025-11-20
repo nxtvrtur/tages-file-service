@@ -29,6 +29,14 @@ grpcurl -plaintext localhost:50051 file_service.FileService/ListFiles
 
 ## Тестирование в Postman
 
+Upload
+
 <img width="831" height="501" alt="2025-11-21_02-09-29" src="https://github.com/user-attachments/assets/3a8a772c-3057-4e77-a7e8-03f96e65d9d2" />
-<img width="831" height="501" alt="2025-11-21_02-09-29" src="https://github.com/user-attachments/assets/7f52f85e-a3bd-497c-b51d-b177251e33eb" />
+
+List
+
+![telegram-cloud-photo-size-2-5258087805345272733-y](https://github.com/user-attachments/assets/d0c8dcb8-28d0-4c68-bf88-2be659853538)
+
+Download
+
 <img width="831" height="605" alt="2025-11-21_02-10-11" src="https://github.com/user-attachments/assets/2325cc75-4f72-4265-831f-ee9e9d490e3e" />
