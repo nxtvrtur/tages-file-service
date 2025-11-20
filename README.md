@@ -11,20 +11,21 @@ Tages — Golang Test Task
 
 ## Структура проекта
 
-tages-file-service
-  cmd  
-    server    # gRPC-сервер
-    client    # CLI-клиент
-  internal/
-    limiter   # лимитер
-    server    # реализация методов gRPC
-    storage   # работа с файлами
-  proto         # file_service.proto + сгенерированные файлы
-  uploads       # файлы
-  go.mod
+tages-file-service/
+├── cmd/
+│   ├── server/    # gRPC-сервер
+│   └── client/    # CLI-клиент (upload | download | list)
+├── internal/
+│   ├── limiter/   # Семафоры на каналах (10 и 100)
+│   ├── server/    # Реализация методов gRPC
+│   └── storage/   # Работа с файлами и метаданными
+├── proto/         # file_service.proto + сгенерированные файлы
+├── uploads/       # Папка для загруженных файлов
+├── go.mod
+└── README.md
 
 
-## Быстрый запуск
+## Запуск
 
 ```bash
 # 1. Запуск сервера
